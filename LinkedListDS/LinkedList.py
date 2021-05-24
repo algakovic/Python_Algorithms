@@ -1,4 +1,4 @@
-from LinkedList.Node import Node
+from LinkedListDS.Node import Node
 
 class LinkedList(object):
     
@@ -24,7 +24,7 @@ class LinkedList(object):
         
         self.counter += 1
         
-        newNode - Node(data)
+        newNode = Node(data)
         
         if not self.head:
             self.head = newNode
